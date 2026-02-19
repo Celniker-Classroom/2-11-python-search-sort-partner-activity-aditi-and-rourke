@@ -10,3 +10,10 @@ for num in range(5): #for loop appends 10 numbers to your list, but make sure yo
 
 
 print(ranNums) #print the list!
+
+
+
+if num in ranNums:
+    print("Number",num,"found in the list!")
+else:
+    print("Number",num,"not found in the list.")
