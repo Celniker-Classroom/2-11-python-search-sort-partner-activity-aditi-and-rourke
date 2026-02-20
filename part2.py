@@ -17,3 +17,7 @@ if num in ranNums:
     print("Number",num,"found in the list!")
 else:
     print("Number",num,"not found in the list.")
+
+comparisons = 0  # Initialize the counter for comparisons
+found = False  # Variable to track if the number was found
+
