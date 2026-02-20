@@ -5,7 +5,7 @@ numbers = []
 for num in range(10):
     numbers.append(random.randint(1, 50))
 
-smallest = min(numbers)
+largest = max(numbers)
 
 print(numbers)
-print("The smallest number is:", smallest)
+print("The largest number is:", largest)
