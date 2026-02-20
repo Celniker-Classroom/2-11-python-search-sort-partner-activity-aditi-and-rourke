@@ -5,7 +5,6 @@ numbers = []
 for num in range(10):
     numbers.append(random.randint(1, 50))
 
-largest = max(numbers)
-
+total = sum(numbers)
 print(numbers)
-print("The largest number is:", largest)
+print ("the sum of the numbers is:", total )
